@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5357bde4-8261-422d-a339-7118cf48e701" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2pysRoLllnUonK8D5YqAu186n3V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Konkurrencesvømmer.executor": "Run",
+    "Application.Medlem.executor": "Run",
+    "Application.calculator.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="calculator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="calculator" />
+      <module name="Delfin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5357bde4-8261-422d-a339-7118cf48e701" name="Changes" comment="" />
+      <created>1733749644035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733749644035</updated>
+      <workItem from="1733749645108" duration="33000" />
+      <workItem from="1733749704962" duration="2000" />
+      <workItem from="1733749721275" duration="67000" />
+      <workItem from="1733749828739" duration="54000" />
+      <workItem from="1733749945235" duration="112000" />
+      <workItem from="1733750107947" duration="354000" />
+      <workItem from="1733750517964" duration="59000" />
+      <workItem from="1733750621206" duration="171000" />
+      <workItem from="1733750851764" duration="3000" />
+      <workItem from="1733750861456" duration="3000" />
+      <workItem from="1733750869409" duration="177000" />
+      <workItem from="1733751061395" duration="48000" />
+      <workItem from="1733751128410" duration="87000" />
+      <workItem from="1733751241991" duration="330000" />
+      <workItem from="1733751644893" duration="13000" />
+      <workItem from="1733816794881" duration="1379000" />
+      <workItem from="1733902658596" duration="313000" />
+      <workItem from="1733903071850" duration="173000" />
+      <workItem from="1733903371712" duration="250000" />
+      <workItem from="1733903688036" duration="189000" />
+      <workItem from="1733903886948" duration="54000" />
+      <workItem from="1733903951006" duration="21000" />
+      <workItem from="1733903996005" duration="222000" />
+      <workItem from="1733904236371" duration="583000" />
+      <workItem from="1733904940776" duration="1966000" />
+      <workItem from="1733907415176" duration="2375000" />
+      <workItem from="1733910039128" duration="9835000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
