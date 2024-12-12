@@ -61,76 +61,63 @@ public void registeremedlem(Scanner scanner) {
 
     System.out.println("Indtast medlemstype");
 
-    System.out.println("Indtast svømmehold");
-}
+        System.out.println("Indtast svømmehold");
+        String svømmehold = scanner.nextLine();
 
-    //get/setter for at sikre encapsulation
-    public String getNavn() {
-        return navn;
-    }
-    public void setNavn(String navn) {
-        this.navn = navn;
-    }
-    public int getAlder() {
-        return alder;
-    }
-    public void setAlder(int alder) {
-        this.alder = alder;
-    }
-    public String getKøn() {
-        return køn;
-    }
-    public void setKøn(String køn) {
-        this.køn = køn;
-    }
-    public int getTlfnr()  {
-        return tlfnr;
-    }
-    public void setTlfnr (int tlfnr) {
-        this.tlfnr = tlfnr;
+        System.out.println("Indtast svømmedeciplin");
+        String svømmedeciplin = scanner.nextLine();
 
-    }
-    public int getCprnr()  {
-        return cprnr;
-    }
-    public void setCprnr (String cprnr) {
-        this.cprnr = cprnr;
-    }
-    public String getAdresse() {
-        return adresse;
+        System.out.println("Har medlemmet restance? (Ja/Nej):");
+        String restanceSvar = scanner.nextLine();
+        boolean harRestance = restanceSvar.equalsIgnoreCase("Ja");
+
+
+        Medlem medlem = new Medlem();
+        medlem.setNavn(navn);
+        medlem.setAlder(alder);
+        medlem.setKøn(køn);
+        medlem.setTlfnr(tlfnr);
+        medlem.setCprnr(cprnr);
+        medlem.setAdresse(adresse);
+        medlem.setMedlemstype(medlemstype);
+        medlem.setSvømmehold(svømmehold);
+        medlem.setSvømmedeciplin(svømmedeciplin);
+        medlem.setHarRestance(harRestance);
+
+        medlemmer.add(medlem);
+        System.out.println("Medlem registreret: + " + medlem.getNavn());
     }
 
-    public void setAdresse(String adresse) {
-        this.adresse = adresse;
+    public void visPrisliste() {
+        if (medlemmer.isEmpty()) {
+            System.out.println("ingen medlemmer endnu");
+            return;
+        }
+        System.out.println("Prisliste for medlemmer:");
+        for (Medlem medlem : medlemmer) {
+            System.out.println("Navn: " + medlem.getNavn() + ", Pris: " + medlem.beregnPris() + "kr.");
+        }
     }
 
-    public String getMedlemstype() {
-        return medlemstype;
-    }
+    public void visMedlemmerMedRestance() {
+        if (medlemmer.isEmpty()) {
+            System.out.println("Ingen medlemmer registreret endnu.");
+            return;
+        }
 
-    public void setMedlemstype(String medlemstype) {
-        this.medlemstype = medlemstype;
-    }
+        System.out.println("Medlemmer med restance:");
+        boolean findesRestance = false;
 
-    public String getSvømmehold() {
-        return svømmehold;
-    }
+        for (Medlem medlem : medlemmer) {
+            if (medlem.isHarRestance()) {
+                System.out.println("Navn: " + medlem.getNavn() + ", CPR: " + medlem.getCprnr());
+                findesRestance = true;
+            }
+        }
 
-    public void setSvømmehold(String svømmehold) {
-        this.svømmehold = svømmehold;
-    }
 
-    public String getSvømmedeciplin() {
-        return svømmedeciplin;
-    }
-
-    public void setSvømmedeciplin(String svømmedeciplin){
-        this.svømmedeciplin = svømmedeciplin;
-    }
-
-    public int beregnAlder(int fødselsårr) {
-        int nuværendeår = LocalDate.now().getYear();
-        return nuværendeår - fødselsårr;
-
+        if (!findesRestance) {
+            System.out.println("Ingen medlemmer har restance.");
+        }
     }
 }
