@@ -2,7 +2,6 @@ package UserInterface;
 
 import Registrering.Medlem;
 
-import java.sql.SQLOutput;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
