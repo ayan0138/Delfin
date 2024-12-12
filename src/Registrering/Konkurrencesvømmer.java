@@ -1,5 +1,6 @@
 package Registrering;
-//SUBCLASS til medlemm
+//SUBCLASS til medlem
+
 
 import java.util.ArrayList;
 
