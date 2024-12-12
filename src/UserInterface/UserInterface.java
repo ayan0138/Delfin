@@ -2,64 +2,76 @@ package UserInterface;
 
 import Registrering.Medlem;
 
-import java.sql.Array;
-import java.time.LocalDate;
+import java.sql.SQLOutput;
+import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UserInterface {
     private List<Medlem> medlemmer;
 
-public UserInterface(){
-    this.medlemmer = new ArrayList<>();
-}
-public void start(){
-    Scanner scanner = new Scanner(System.in);
-while (true) {
-    System.out.println("Registering af medlem");
-    System.out.println("Prisliste");
-    System.out.println("Restance");
-    System.out.println("Luk");
-    System.out.println("Valg en af mulighederne");
-    int valg = scanner.nextInt();
-    scanner.nextLine();
-    switch(valg){
-        case 1: Medlem(scanner);
-            break;
-
-        case 2: beregnPris();
-            break;
-
-        case 3:
-            break;
-
-        case 4:
-            break;
-
-        default:
-            System.out.println();
+    public UserInterface() {
+        this.medlemmer = new ArrayList<>();
     }
-  }
-}
-//lav en metode der registrerer medlem() / Medlems registering af nye medlemmer via input
-public void registeremedlem(Scanner scanner) {
 
-    System.out.println("Indtast navn:");
-    String navn = scanner.nextLine();
+    public void start() {
+        Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Indtast alder");
-    int alder = scanner.nextInt();
-    scanner.nextLine();
+        while (true) {
+            System.out.println("1. Registering af medlem");
+            System.out.println("2. Prisliste");
+            System.out.println("3. Restance");
+            System.out.println("4. Luk");
+            System.out.println("Vælg en af mulighederne");
+            int valg = Integer.parseInt(scanner.nextLine());
 
-    System.out.println("Indtast køn");
-    String køn = scanner.nextLine();
 
-    System.out.println("Indtast tlf-nr");
-    int tlfnr = scanner.nextInt();
+            switch (valg) {
+                case 1:
+                    registeremedlem(scanner);
+                    break;
 
-    System.out.println("Indtast adresse");
+                case 2:
+                    visPrisliste();
+                    break;
 
-    System.out.println("Indtast medlemstype");
+                case 3:
+                    visMedlemmerMedRestance();
+                    break;
+
+                case 4:
+                    System.out.println("Program lukkes");
+                    return;
+
+                default:
+                    System.out.println("Ugyldigt valgt. Prøv igen");
+            }
+        }
+    }
+
+    //lav en metode der registrerer medlem() / Medlems registering af nye medlemmer via input
+    public void registeremedlem(Scanner scanner) {
+
+        System.out.println("Indtast navn:");
+        String navn = scanner.nextLine();
+
+        System.out.println("Indtast alder");
+        int alder = Integer.parseInt(scanner.nextLine());
+
+        System.out.println("Indtast køn");
+        String køn = scanner.nextLine();
+
+        System.out.println("Indtast tlf-nr");
+        int tlfnr = Integer.parseInt(scanner.nextLine());
+
+        System.out.println("Indtast CPR-nummer");
+        String cprnr = scanner.nextLine();
+
+        System.out.println("Indtast adresse");
+        String adresse = scanner.nextLine();
+
+        System.out.println("Indtast medlemstype");
+        String medlemstype = scanner.nextLine();
 
         System.out.println("Indtast svømmehold");
         String svømmehold = scanner.nextLine();
