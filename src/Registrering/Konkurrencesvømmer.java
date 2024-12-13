@@ -1,6 +1,6 @@
 package Registrering;
 //SUBCLASS til medlem
-//
+
 import java.util.ArrayList;
 
 public class Konkurrencesvømmer extends Medlem{
