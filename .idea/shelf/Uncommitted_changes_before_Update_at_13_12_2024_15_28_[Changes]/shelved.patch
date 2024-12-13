@@ -1,0 +1,145 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"5357bde4-8261-422d-a339-7118cf48e701\" name=\"Changes\" comment=\"torsdag 12 dec\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/vcs.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Registrering/Kontigent.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Registrering/Kontigent.java\" afterDir=\"false\" />\n    </list>\n    <list id=\"e72b4dc4-cc38-4aa8-b1d6-859320a0c781\" name=\"Changes by lawand\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/src/UserInterface/UserInterface.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/UserInterface/UserInterface.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;ayan0138&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/ayan0138/Delfin.git&quot;,\n    &quot;accountId&quot;: &quot;4c60c299-a811-44d9-aeb0-d09112bd5956&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 4\n}</component>\n  <component name=\"ProjectId\" id=\"2pysRoLllnUonK8D5YqAu186n3V\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Application.Konkurrencesvømmer.executor\": \"Run\",\n    \"Application.KonkurrencesvømmerMain.executor\": \"Run\",\n    \"Application.Main.executor\": \"Run\",\n    \"Application.Medlem.executor\": \"Run\",\n    \"Application.calculator.executor\": \"Run\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RunManager\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"Delfin\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103\" />\n        <option value=\"bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"5357bde4-8261-422d-a339-7118cf48e701\" name=\"Changes\" comment=\"\" />\n      <created>1733749644035</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1733749644035</updated>\n      <workItem from=\"1733749645108\" duration=\"33000\" />\n      <workItem from=\"1733749704962\" duration=\"2000\" />\n      <workItem from=\"1733749721275\" duration=\"67000\" />\n      <workItem from=\"1733749828739\" duration=\"54000\" />\n      <workItem from=\"1733749945235\" duration=\"112000\" />\n      <workItem from=\"1733750107947\" duration=\"354000\" />\n      <workItem from=\"1733750517964\" duration=\"59000\" />\n      <workItem from=\"1733750621206\" duration=\"171000\" />\n      <workItem from=\"1733750851764\" duration=\"3000\" />\n      <workItem from=\"1733750861456\" duration=\"3000\" />\n      <workItem from=\"1733750869409\" duration=\"177000\" />\n      <workItem from=\"1733751061395\" duration=\"48000\" />\n      <workItem from=\"1733751128410\" duration=\"87000\" />\n      <workItem from=\"1733751241991\" duration=\"330000\" />\n      <workItem from=\"1733751644893\" duration=\"13000\" />\n      <workItem from=\"1733816794881\" duration=\"1379000\" />\n      <workItem from=\"1733902658596\" duration=\"313000\" />\n      <workItem from=\"1733903071850\" duration=\"173000\" />\n      <workItem from=\"1733903371712\" duration=\"250000\" />\n      <workItem from=\"1733903688036\" duration=\"189000\" />\n      <workItem from=\"1733903886948\" duration=\"54000\" />\n      <workItem from=\"1733903951006\" duration=\"21000\" />\n      <workItem from=\"1733903996005\" duration=\"222000\" />\n      <workItem from=\"1733904236371\" duration=\"583000\" />\n      <workItem from=\"1733904940776\" duration=\"1966000\" />\n      <workItem from=\"1733907415176\" duration=\"2375000\" />\n      <workItem from=\"1733910039128\" duration=\"10910000\" />\n      <workItem from=\"1733996920167\" duration=\"10312000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"torsdag 12 dec\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1734009253249</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1734009253249</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"torsdag 12 dec\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"torsdag 12 dec\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3463fd9c6f0e5ff769d092b26cfa96038c395744)
++++ b/.idea/workspace.xml	(date 1734100044036)
+@@ -4,13 +4,16 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="5357bde4-8261-422d-a339-7118cf48e701" name="Changes" comment="torsdag 12 dec">
+-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++    <list default="true" id="5357bde4-8261-422d-a339-7118cf48e701" name="Changes" comment="fredag 14.50">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Registrering/Kontigent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Registrering/Kontigent.java" afterDir="false" />
+     </list>
+-    <list id="e72b4dc4-cc38-4aa8-b1d6-859320a0c781" name="Changes by lawand" comment="">
++    <list id="173b1ee1-3554-4254-a824-1fdcd092b66f" name="Changes by lawand" comment="">
++      <change beforePath="$PROJECT_DIR$/src/Registrering/Konkurrencesvømmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Registrering/Konkurrencesvømmer.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Registrering/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Registrering/Medlem.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/UserInterface/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/UserInterface.java" afterDir="false" />
++    </list>
++    <list id="c87b2164-bc38-4aac-b25c-377ea7880bda" name="Changes by Udd" comment="">
++      <change beforePath="$PROJECT_DIR$/src/Registrering/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Registrering/Medlem.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -39,6 +42,15 @@
+     &quot;accountId&quot;: &quot;4c60c299-a811-44d9-aeb0-d09112bd5956&quot;
+   }
+ }</component>
++  <component name="LineStatusTrackerManager">
++    <file path="$PROJECT_DIR$/src/Registrering/Medlem.java">
++      <ranges>
++        <range start1="25" end1="26" start2="25" end2="26" changelist="c87b2164-bc38-4aac-b25c-377ea7880bda" />
++        <range start1="31" end1="31" start2="31" end2="34" changelist="c87b2164-bc38-4aac-b25c-377ea7880bda" />
++        <range start1="130" end1="130" start2="133" end2="145" changelist="173b1ee1-3554-4254-a824-1fdcd092b66f" />
++      </ranges>
++    </file>
++  </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 4
+ }</component>
+@@ -124,7 +136,10 @@
+       <workItem from="1733904940776" duration="1966000" />
+       <workItem from="1733907415176" duration="2375000" />
+       <workItem from="1733910039128" duration="10910000" />
+-      <workItem from="1733996920167" duration="10312000" />
++      <workItem from="1733996920167" duration="13382000" />
++      <workItem from="1734085646409" duration="148000" />
++      <workItem from="1734085806445" duration="274000" />
++      <workItem from="1734086210968" duration="9845000" />
+     </task>
+     <task id="LOCAL-00001" summary="torsdag 12 dec">
+       <option name="closed" value="true" />
+@@ -134,7 +149,71 @@
+       <option name="project" value="LOCAL" />
+       <updated>1734009253249</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="torsdag 12 dec kl 22.25">
++      <option name="closed" value="true" />
++      <created>1734038689225</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1734038689225</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Changes by lawand">
++      <option name="closed" value="true" />
++      <created>1734039075885</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1734039075885</updated>
++    </task>
++    <task id="LOCAL-00004" summary="torsdag 12 dec kl 22.25">
++      <option name="closed" value="true" />
++      <created>1734039442470</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1734039442470</updated>
++    </task>
++    <task id="LOCAL-00005" summary="torsdag 12 dec kl 22.25">
++      <option name="closed" value="true" />
++      <created>1734039555177</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1734039555177</updated>
++    </task>
++    <task id="LOCAL-00006" summary="torsdag 12 dec kl 22.25">
++      <option name="closed" value="true" />
++      <created>1734039590608</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1734039590608</updated>
++    </task>
++    <task id="LOCAL-00007" summary="torsdag 12 dec kl 22.25">
++      <option name="closed" value="true" />
++      <created>1734039734497</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1734039734497</updated>
++    </task>
++    <task id="LOCAL-00008" summary="torsdag 12 dec kl 22.25">
++      <option name="closed" value="true" />
++      <created>1734039784617</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1734039784617</updated>
++    </task>
++    <task id="LOCAL-00009" summary="fredag 14.50">
++      <option name="closed" value="true" />
++      <created>1734097755866</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1734097755866</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -153,6 +232,10 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="torsdag 12 dec" />
+-    <option name="LAST_COMMIT_MESSAGE" value="torsdag 12 dec" />
++    <MESSAGE value="torsdag 12 dec v2" />
++    <MESSAGE value="Changes by lawand" />
++    <MESSAGE value="torsdag 12 dec kl 22.25" />
++    <MESSAGE value="fredag 14.50" />
++    <option name="LAST_COMMIT_MESSAGE" value="fredag 14.50" />
+   </component>
+ </project>
+\ No newline at end of file

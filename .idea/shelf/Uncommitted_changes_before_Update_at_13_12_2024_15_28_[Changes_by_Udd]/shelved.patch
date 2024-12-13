@@ -1,0 +1,27 @@
+Index: src/Registrering/Medlem.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\n//SUPERCLASS medlem!\npackage Registrering;\n\n\npublic class Medlem {\n\n    private String navn;\n    private int alder;\n    private String køn;\n    private int tlfnr;\n    private String cprnr;\n    private String adresse;\n    private String medlemstype; //Aktiv - passiv\n    private String svømmehold;\n    private String svømmedeciplin;\n\n    //paramariseret konstuktør\n    public Medlem() {\n        this.navn = navn;\n        this.alder = alder;\n        this.køn = køn;\n        this.tlfnr = tlfnr;\n        this.cprnr = cprnr;\n        this.adresse = adresse;\n        this.medlemstype = medlemstype;\n        this.svømmehold = svømmehold;\n        this.svømmedeciplin = svømmedeciplin;\n    } //getter og setter metode\n\n    public Medlem(String navn, int alder, String køn) {\n    }\n\n    public String getNavn() {\n        return navn;\n    }\n    public void setNavn(String navn) {\n        this.navn = navn;\n    }\n    public int getAlder() {\n        return alder;\n    }\n    public void setAlder(int alder) {\n        this.alder = alder;\n    }\n    public String getKøn() {\n        return køn;\n    }\n    public void setKøn(String køn) {\n        this.køn = køn;\n    }\n    public int getTlfnr()  {\n        return tlfnr;\n    }\n    public void setTlfnr (int tlfnr) {\n        this.tlfnr = tlfnr;\n\n    }\n    public String getCprnr()  {\n        return cprnr;\n    }\n    public void setCprnr (String cprnr) {\n        this.cprnr = cprnr;\n    }\n    public String getAdresse() {\n        return adresse;\n    }\n\n    public void setAdresse(String adresse) {\n        this.adresse = adresse;\n    }\n\n    public String getMedlemstype() {\n        return medlemstype;\n    }\n\n    public void setMedlemstype(String medlemstype) {\n        this.medlemstype = medlemstype;\n    }\n\n    public String getSvømmehold() {\n        return svømmehold;\n    }\n\n    public void setSvømmehold(String svømmehold) {\n        this.svømmehold = svømmehold;\n    }\n\n    public String getSvømmedeciplin() {\n        return svømmedeciplin;\n    }\n\n    public void setSvømmedeciplin(String svømmedeciplin){\n        this.svømmedeciplin = svømmedeciplin;\n    }\n    //display medleminfo\n    public void displayInfo() {\n        System.out.println(\"navn: \" + navn + \"alder: \" + alder + \"køn \" + køn );\n    }\n\n\n    // Metode til at beregne pris\n    public double beregnPris() {\n        double pris = 0.0;\n        if (medlemstype.equalsIgnoreCase(\"passiv\")) {\n            return 500;\n        } else if (alder < 18) {\n            return 1000;\n        } else if (alder >= 60) {\n            return (1600 * 0.75);\n        } else {\n            return 1600;\n        }\n\n    }\n\n\n//Restance metode\n    private boolean harRestance; // Ny attribut\n\n    // Getter og setter for restance\n    public boolean isHarRestance() {\n        return harRestance;\n    }\n\n    public void setHarRestance(boolean harRestance) {\n        this.harRestance = harRestance;\n\n\n}\n\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Registrering/Medlem.java b/src/Registrering/Medlem.java
+--- a/src/Registrering/Medlem.java	(revision 2f79d4d850b0c71197ce7bfda4f69ad43457640a)
++++ b/src/Registrering/Medlem.java	(date 1734100107192)
+@@ -23,12 +23,15 @@
+         this.tlfnr = tlfnr;
+         this.cprnr = cprnr;
+         this.adresse = adresse;
+-        this.medlemstype = medlemstype;
++        this.medlemstype = "aktiv";
+         this.svømmehold = svømmehold;
+         this.svømmedeciplin = svømmedeciplin;
+     } //getter og setter metode
+ 
+     public Medlem(String navn, int alder, String køn) {
++        this.navn = navn;
++        this.alder = alder;
++        this.køn = køn;
+     }
+ 
+     public String getNavn() {
