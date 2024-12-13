@@ -1,5 +1,5 @@
 package UserInterface;
-//interface
+//interface1
 import Registrering.Medlem;
 
 import java.util.List;
