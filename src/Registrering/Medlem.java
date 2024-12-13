@@ -1,5 +1,5 @@
 
-//SUPERCLASS medlem!
+//SUPERCLASS medlem
 package Registrering;
 
 
