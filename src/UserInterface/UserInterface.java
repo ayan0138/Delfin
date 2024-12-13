@@ -1,5 +1,5 @@
 package UserInterface;
-
+//interface
 import Registrering.Medlem;
 
 import java.util.List;
@@ -20,7 +20,8 @@ public class UserInterface {
             System.out.println("1. Registering af medlem");
             System.out.println("2. Prisliste");
             System.out.println("3. Restance");
-            System.out.println("4. Luk");
+            System.out.println("4. Samlet kontigent");
+            System.out.println("5. Luk");
             System.out.println("Vælg en af mulighederne");
             int valg = Integer.parseInt(scanner.nextLine());
 
@@ -39,6 +40,10 @@ public class UserInterface {
                     break;
 
                 case 4:
+                    beregnSamletKontigent();
+                    break;
+
+                case 5:
                     System.out.println("Program lukkes");
                     return;
 
@@ -130,5 +135,16 @@ public class UserInterface {
         if (!findesRestance) {
             System.out.println("Ingen medlemmer har restance.");
         }
+    }
+    public void beregnSamletKontigent() {
+        if (medlemmer.isEmpty()) {
+            System.out.println("Ingen medlemmer registreret endnu.");
+            return;
+        }
+        double samletKontigent = 0.0;
+        for (Medlem medlem : medlemmer) {
+            samletKontigent += medlem.beregnPris();
+        }
+        System.out.println("Den samlet kontigent for alle medlemmer er: " + samletKontigent + " Kr." );
     }
 }
