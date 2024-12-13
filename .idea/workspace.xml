@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5357bde4-8261-422d-a339-7118cf48e701" name="Changes" comment="torsdag 12 dec">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserInterface/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/UserInterface.java" afterDir="false" />
-    </list>
+    <list default="true" id="5357bde4-8261-422d-a339-7118cf48e701" name="Changes" comment="fredag" />
     <list id="e72b4dc4-cc38-4aa8-b1d6-859320a0c781" name="Changes by lawand" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +119,7 @@
       <workItem from="1733907415176" duration="2375000" />
       <workItem from="1733910039128" duration="10910000" />
       <workItem from="1733996920167" duration="10312000" />
-      <workItem from="1734039987466" duration="3562000" />
+      <workItem from="1734039987466" duration="3914000" />
     </task>
     <task id="LOCAL-00001" summary="torsdag 12 dec">
       <option name="closed" value="true" />
@@ -132,7 +129,39 @@
       <option name="project" value="LOCAL" />
       <updated>1734009253249</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fredag">
+      <option name="closed" value="true" />
+      <created>1734083629278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734083629278</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fredag">
+      <option name="closed" value="true" />
+      <created>1734083693255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734083693255</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fredag">
+      <option name="closed" value="true" />
+      <created>1734083812463</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734083812463</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fredag">
+      <option name="closed" value="true" />
+      <created>1734083836534</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734083836534</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +180,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="torsdag 12 dec" />
-    <option name="LAST_COMMIT_MESSAGE" value="torsdag 12 dec" />
+    <MESSAGE value="fredag" />
+    <option name="LAST_COMMIT_MESSAGE" value="fredag" />
   </component>
 </project>
